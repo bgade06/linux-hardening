@@ -1,21 +1,22 @@
-# Linux Server Hardening
+# Linux Server Hardening  
 
-## Objective
-The Linux Server Hardening project aimed to strengthen the security posture of Baker Street Corporation’s production Linux server by identifying vulnerabilities and applying industry best practices for system hardening. The primary focus was to audit user and group accounts, enforce strict password and sudo policies, secure SSH access, remove insecure services, patch system software, and configure logging for long-term monitoring. This hands-on engagement was designed to minimize attack surfaces, ensure least-privilege access, and develop practical skills in server administration, security configuration, and automated compliance maintenance.
+## Objective  
+The Linux Server Hardening project aimed to strengthen the security posture of Baker Street Corporation’s production Linux server by identifying vulnerabilities and applying industry best practices for system hardening. The primary focus was to audit user and group accounts, enforce strict password and sudo policies, secure SSH access, remove insecure services, patch system software, and configure logging for long-term monitoring. This hands-on engagement was designed to minimize attack surfaces, ensure least-privilege access, and develop practical skills in server administration, security configuration, and automated compliance maintenance.  
 
-### Skills Learned
-– Auditing and managing Linux users, groups, and permissions
-– Configuring strong password and sudo policies with PAM and visudo
-– Securing SSH access to prevent unauthorized logins
-– Removing insecure services and patching system vulnerabilities
-– Automating server hardening tasks with Bash scripts and cron jobs
+### Skills Learned  
+- Auditing and managing Linux users, groups, and permissions  
+- Configuring strong password and sudo policies with PAM and visudo  
+- Securing SSH access to prevent unauthorized logins  
+- Removing insecure services and patching system vulnerabilities  
+- Automating server hardening tasks with Bash scripts and cron jobs  
 
-### Tools Used
-– Pluggable Authentication Module (PAM) configuration for enforcing strong password complexity and aging policies.
-– Privilege management tools (visudo, sudo) for applying least-privilege access controls.
-– Firewall and auditing utilities (UFW, Lynis, Tripwire) for system hardening, vulnerability detection, and file integrity monitoring.
-– Package management system (apt) for patching vulnerabilities and installing security updates.
-– Automation tools (Bash scripting, cron) for scheduling recurring hardening tasks and compliance checks.
+### Tools Used  
+- **Pluggable Authentication Module (PAM):** For enforcing strong password complexity and aging policies.  
+- **Privilege Management Tools (visudo, sudo):** For applying least-privilege access controls.  
+- **Firewall and Auditing Utilities (UFW, Lynis, Tripwire):** For system hardening, vulnerability detection, and file integrity monitoring.  
+- **Package Management System (apt):** For patching vulnerabilities and installing security updates.  
+- **Automation Tools (Bash scripting, cron):** For scheduling recurring hardening tasks and compliance checks.  
+
 
 ## Steps
 **Step 1 — System Backup**  
