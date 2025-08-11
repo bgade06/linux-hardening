@@ -1,4 +1,4 @@
-# Project 1: Linux Server Hardening
+# Linux Server Hardening
 
 ## Objective
 The Linux Server Hardening project aimed to strengthen the security posture of Baker Street Corporation’s production Linux server by identifying vulnerabilities and applying industry best practices for system hardening. The primary focus was to audit user and group accounts, enforce strict password and sudo policies, secure SSH access, remove insecure services, patch system software, and configure logging for long-term monitoring. This hands-on engagement was designed to minimize attack surfaces, ensure least-privilege access, and develop practical skills in server administration, security configuration, and automated compliance maintenance.
